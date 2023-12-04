@@ -1,0 +1,28 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/8613095/pexels-photo-8613095.jpeg?auto=compress&cs=tinysrgb&w=800");
+}
+
+.container {
+  margin-left: 40%; /* Pushes the item to the center */
+  margin-right: 40%; /* Pushes the item to the center */
+
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color:  floralwhite;
+  padding: 20px;
+}
+
+#value {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20%;
+  gap: 8px;
+}
